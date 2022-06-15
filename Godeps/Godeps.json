@@ -1,0 +1,25 @@
+{
+	"ImportPath": "gotrading",
+	"GoVersion": "go1.15",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/go-ini/ini",
+			"Comment": "v1.62.0",
+			"Rev": "5e97220809ffaa826f787728501264e9114cb834"
+		},
+		{
+			"ImportPath": "github.com/gorilla/websocket",
+			"Comment": "v1.4.2-3-gc3dd95a",
+			"Rev": "c3dd95aea9779669bb3daafbd84ee0530c8ce1c1"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-sqlite3",
+			"Comment": "v1.14.6-5-gab91e93",
+			"Rev": "ab91e9342b029f7b8d6097257c9a7874153a5b3f"
+		}
+	]
+}
